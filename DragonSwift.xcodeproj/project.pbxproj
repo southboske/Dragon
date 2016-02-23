@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		E1E4BC661C5AAA55005D3184 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E4BC651C5AAA55005D3184 /* AppDelegate.swift */; };
-		E1E4BC681C5AAA55005D3184 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E4BC671C5AAA55005D3184 /* ViewController.swift */; };
 		E1E4BC6B1C5AAA55005D3184 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1E4BC691C5AAA55005D3184 /* Main.storyboard */; };
 		E1E4BC6D1C5AAA55005D3184 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1E4BC6C1C5AAA55005D3184 /* Assets.xcassets */; };
 		E1E4BC701C5AAA55005D3184 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1E4BC6E1C5AAA55005D3184 /* LaunchScreen.storyboard */; };
+		E1E4BC7A1C5AC436005D3184 /* Dragon.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E4BC791C5AC436005D3184 /* Dragon.swift */; };
+		E1E4BC7E1C5AC929005D3184 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E4BC7D1C5AC929005D3184 /* DetailViewController.swift */; };
+		E1E4BC841C5ACDEA005D3184 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E4BC831C5ACDEA005D3184 /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E1E4BC621C5AAA55005D3184 /* DragonSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DragonSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1E4BC651C5AAA55005D3184 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E1E4BC671C5AAA55005D3184 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E1E4BC6A1C5AAA55005D3184 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E1E4BC6C1C5AAA55005D3184 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E1E4BC6F1C5AAA55005D3184 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E1E4BC711C5AAA55005D3184 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1E4BC791C5AC436005D3184 /* Dragon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dragon.swift; sourceTree = "<group>"; };
+		E1E4BC7D1C5AC929005D3184 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DetailViewController.swift; path = ../DetailViewController.swift; sourceTree = "<group>"; };
+		E1E4BC831C5ACDEA005D3184 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +59,9 @@
 			isa = PBXGroup;
 			children = (
 				E1E4BC651C5AAA55005D3184 /* AppDelegate.swift */,
-				E1E4BC671C5AAA55005D3184 /* ViewController.swift */,
+				E1E4BC831C5ACDEA005D3184 /* TableViewController.swift */,
+				E1E4BC791C5AC436005D3184 /* Dragon.swift */,
+				E1E4BC7D1C5AC929005D3184 /* DetailViewController.swift */,
 				E1E4BC691C5AAA55005D3184 /* Main.storyboard */,
 				E1E4BC6C1C5AAA55005D3184 /* Assets.xcassets */,
 				E1E4BC6E1C5AAA55005D3184 /* LaunchScreen.storyboard */,
@@ -136,8 +142,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E1E4BC681C5AAA55005D3184 /* ViewController.swift in Sources */,
+				E1E4BC7A1C5AC436005D3184 /* Dragon.swift in Sources */,
 				E1E4BC661C5AAA55005D3184 /* AppDelegate.swift in Sources */,
+				E1E4BC7E1C5AC929005D3184 /* DetailViewController.swift in Sources */,
+				E1E4BC841C5ACDEA005D3184 /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
